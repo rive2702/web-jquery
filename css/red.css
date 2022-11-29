@@ -1,0 +1,54 @@
+body{
+    background: url('../img/rojo.jpg');
+    background-attachment: fixed;
+}
+
+#global {
+    background: #352224a7;
+}
+
+#logo{
+    background: #ca35138d;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+#menu ul li:hover{
+    background: #ca3413;
+}
+
+.button_viewMore{
+    background: #ca35138d;  
+}
+
+.button_viewMore:hover{
+    background-color: #ca3413;
+    opacity: 0.8;
+}
+
+#sidebar h4 span{
+    background: #35222481;
+    padding: 5px;
+}
+
+#acordeon h3{
+    background: #ca3413;
+    color: white;
+}
+
+form input[type="submit"]{
+    background: #352224;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    display: block;
+}
+
+#watch{
+    color: #ca35138d;
+    border: 5px dashed #ca35138d;
+    background-color: black;
+    background-color: rgba(0, 0, 0, 0.734)
+}

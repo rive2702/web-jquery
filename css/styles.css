@@ -1,0 +1,303 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.clearFix{
+    float: none;
+    clear: both;
+}
+
+#global{
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 30px;
+    background: rgba(43, 65, 43, 0.658);
+    opacity: 0.93;
+    padding: 20px;
+    box-shadow: 0px 0px 5px gray;
+    padding: 35px;
+}
+
+#logo{
+    font-family: 'Helvetica', Times, serif;
+    font-size: 28px;
+    letter-spacing: 4px;
+    line-height: 75px;
+    color: #ccd;
+    text-align: center;
+    border-radius: 10px;
+    width: 100%;
+    height: 80px;
+    margin-bottom: 20px;
+    float: left;
+    text-transform: uppercase;
+}
+
+#menu{
+    font-family: Helvetica, Arial;
+    background: #333;
+    width: 100%;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+#menu ul{
+    display: flex;
+    line-height: 46px;
+    list-style: none;
+    transition: all 300ms;
+    justify-content: space-around;
+}
+
+#menu ul li{
+    height: 46px;
+    display: inline-block;
+}
+
+#menu a{
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#posts{
+   width: 60%;
+   float: left;
+   font-family: Helvetica, Arial; 
+}
+
+.post{
+    padding: 15px;
+}
+
+h2{
+    font-family: Helvetica, Arial; 
+    font-size: 30px;
+    color: rgb(242, 240, 240);
+}
+
+.post .date{
+    display: block;
+    color: gray;
+    margin-top: 5px;
+}
+
+.post p{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    line-height: 22px;
+    text-align: justify;
+    color: rgb(195, 195, 210);
+}
+
+.button_viewMore{
+    font-size: 14px;
+    text-align: center;
+    display: block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    margin-top: 10px;
+    width: 80px;
+    float: auto;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#sidebar{
+    font-family: Helvetica, Arial;
+    width: 31%;
+    float: right;
+    padding-right: 15px;
+}
+
+#sidebar h4{
+    margin-top: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 10px;
+    color: rgb(255, 255, 255);
+    background: url(../img/lines.png) repeat-x;
+}
+
+#sidebar h4 span{
+    background: rgb(43, 65, 43);
+    padding: 5px;
+}
+
+#about p {
+    color: rgba(255, 255, 255, 0.685);
+}
+
+#submit_b{
+    font-weight: bold;
+}
+
+#sidebar img{
+    width: 100%;
+}
+
+#sidebar p{
+    font-size: 15px;
+    text-align: justify;
+}
+#watch {
+    align-items: center;
+}
+
+#login{
+    display: block !important;
+}
+
+form label {
+    color: white;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="password"]{
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 80%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form input[type="number"]{
+    padding: 10px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 20%;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
+form input[type="submit"]{
+    background: #eee;
+    padding: 10px;
+    margin-top: 15px;
+    border: 1px solid #ccc;
+    color: #333;
+    cursor: pointer;
+    display: block;
+}
+
+footer{
+    font-family: Helvetica, Arial;
+    color: white;
+    height: 47px;
+    width: 70%;
+    background: rgba(51, 51, 51, 0.70);
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 25px;
+    line-height: 47px;
+}
+
+.bx-wrapper, .bx-viewport{
+    height: 250px !important;
+}
+
+#selector_th{
+    position: fixed;
+    top: 40%;
+    background: rgba(51, 51, 51, 0.5);
+    width: 50px;
+    height: 100px;
+}
+
+#to_green,
+#to_red,
+#to_blue{
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    display: block;
+    margin: 0 auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+#to_green{
+    background: #133f26;
+}
+
+#to_red{
+    background: #6d050fd9;
+}
+
+#to_blue{
+    background: #145980;
+}
+
+.up{
+    color: white;
+    text-decoration: none;
+    float: right;
+    display: block;
+}
+
+#box{
+    width: 60%;
+    float: left;
+    margin-top: 40px;
+}
+
+#watch{
+    font-size: 40px;
+    width: 30%;
+    font-family: Helvetica, Arial;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0px auto;
+    text-align: center;
+}
+
+#contactF{
+
+    margin-left: 20px;
+    margin-top: 5px;
+    font-family: Helvetica, Arial;
+    margin-left: 0px;
+    
+}
+
+#contacFormField{
+    padding: 20px;
+    padding-left: 40px;  
+}
+
+#contactF label{
+    display: block;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+select{
+    padding: 5px;
+    width: auto;
+}
+
+
+select:focus {
+    outline:rgb(43, 65, 43);
+}
+
+#name-error,
+#apellido-error,
+#email-error,
+#fecha-error,
+#edad-error,
+#sexo-error{
+    color: red;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}

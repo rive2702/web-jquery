@@ -1,0 +1,107 @@
+@media (max-width: 767px) {
+
+    
+    #logo{
+        font-size: 15px;
+        letter-spacing: 1.5px;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    #menu ul {
+        margin-left: 10px;
+        display: flex;
+        line-height: 35px;
+        flex-direction: column;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    #menu ul li{
+        height: 35px;
+    }
+    
+    #content {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #sidebar {
+        align-items: center;
+        width: 100%;  
+
+    }
+
+    #posts{
+        width: 100%;
+     }
+
+    form input,
+    form label{
+        display: block;
+    }
+    
+    #watch {
+        width: 100%;
+        margin-left: 30px;
+    }
+
+    #acordeon {
+        width: 166%;
+    }
+
+    #acordeon h3 {
+        text-align: center;
+    }
+
+    #contactF{
+        width: 93%;
+    }
+
+    .bx-wrapper, .bx-viewport{
+        height: 105px !important;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 990px){
+
+    #logo{
+        font-size: 17px;
+        letter-spacing: 2px;
+    }   
+
+    #contactF{
+        width: 75%;
+    }
+
+    #watch {
+        width: 50%;
+        margin-left: 40px;
+        margin-top: 55px;
+    }
+
+    .bx-wrapper, .bx-viewport{
+        height: 200px !important;
+    }
+}
+
+@media (min-width: 991px) {
+
+    #logo{
+        font-size: 20px;
+        letter-spacing: 3px;
+    }
+
+    #contactF{
+        width: 50%;
+    }
+
+    #watch {
+        width: 40%;
+        margin-top: 85px;
+    }
+}
